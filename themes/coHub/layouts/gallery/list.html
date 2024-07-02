@@ -1,0 +1,21 @@
+{{ define "main"}}
+<section class="gallery">
+  <div class="container">
+    <div class="row">
+      {{ range .Params.galleryImage2 }}
+      <div class="col-md-6">
+        <div class="gallery-item">
+          <a
+            href="{{ .image | absURL }}"
+            data-source="{{ .image | absURL }}"
+            title="Exibhition 01"
+          >
+            <img src="{{ .image | absURL }}" alt="gallery-images" />
+          </a>
+        </div>
+      </div>
+      {{end }}
+    </div>
+  </div>
+</section>
+{{/* {{ partial "investor.html" . }} */}}{{end}}
