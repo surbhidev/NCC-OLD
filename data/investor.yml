@@ -1,0 +1,14 @@
+---
+enable: true
+title: "Our Team"
+subtitle: >
+  Describe what ncc will do ig???
+investor:
+  - name: "Name Surname"
+    post: "Head"
+    image: "images/team/design-team-01.jpg"
+  - name: "Name Surname"
+    post: "Head"
+    image: "images/team/design-team-01.jpg"
+---
+
